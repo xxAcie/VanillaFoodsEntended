@@ -1,6 +1,7 @@
 package net.acie.vfe;
 
 import com.mojang.logging.LogUtils;
+import net.acie.vfe.item.ModCreativeModeTab;
 import net.acie.vfe.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,7 @@ public class VanillaFoodsExpanded {
         modEventBus.addListener(this::addCreative);
 
         ModItems.register(modEventBus);
+        ModCreativeModeTab.register(modEventBus);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -62,6 +64,8 @@ public class VanillaFoodsExpanded {
             event.accept(ModItems.BEER);
             event.accept(ModItems.HAMBURGER);
             event.accept(ModItems.CHOCOLATE_GLOWBERRIES);
+            event.accept(ModItems.SUSHI);
+            event.accept(ModItems.JELLY_DONUT);
         }
     }
 

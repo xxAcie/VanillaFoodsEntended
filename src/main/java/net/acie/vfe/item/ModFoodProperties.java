@@ -22,12 +22,18 @@ public class ModFoodProperties {
 
     public static final FoodProperties OATMEAL_CREAM_PIE = new FoodProperties.Builder().nutrition(6)
             .saturationModifier(0.4F)
-            .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 1), 1.0F)
-            .usingConvertsTo(Items.GLASS_BOTTLE).build();
+            .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 1), 1.0F).build();
 
     public static final FoodProperties HAMBURGER = new FoodProperties.Builder().nutrition(11)
             .saturationModifier(1.2F).build();
 
     public static final FoodProperties CHOCOLATE_GLOWBERRIES = new FoodProperties.Builder().nutrition(5)
             .saturationModifier(0.4f).build();
+
+    public static final FoodProperties SUSHI = new FoodProperties.Builder().nutrition(8)
+            .saturationModifier(0.6F).build();
+
+    public static final FoodProperties JELLY_DONUT = new FoodProperties.Builder().nutrition(6)
+            .saturationModifier(0.4F)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 450, 0),1.0F).build();
 }

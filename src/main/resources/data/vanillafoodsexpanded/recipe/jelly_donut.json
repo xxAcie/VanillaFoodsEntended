@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillafoodsexpanded:jelly_donut"
+  }
+}

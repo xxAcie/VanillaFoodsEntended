@@ -6,5 +6,39 @@
   "item.vanillafoodsexpanded.oatmeal_cream_pie": "Oatmeal Cream Pie",
   "item.vanillafoodsexpanded.beer": "Beer",
   "item.vanillafoodsexpanded.hamburger": "Hamburger",
-  "item.vanillafoodsexpanded.chocolate_glowberries": "Choco-Covered Glow berries"
+  "item.vanillafoodsexpanded.chocolate_glowberries": "Choco-Covered Glow berries",
+  "item.vanillafoodsexpanded.sushi": "Sushi",
+  "item.vanillafoodsexpanded.jelly_donut": "Sweet Berry Donut",
+
+  "creativetab.vanillafoodsexpanded.mod_items": "Vanilla Foods Expanded",
+
+  "tooltip.vanillafoodsexpanded.vegetable_soup": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.vegetable_soup.shift_down": "Carrot + Potato + Beetroot + Bowl",
+
+  "tooltip.vanillafoodsexpanded.chicken_sandwich": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.chicken_sandwich.shift_down": "Cooked Chicken + Bread",
+
+  "tooltip.vanillafoodsexpanded.fried_egg": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.fried_egg.shift_down": "Egg + Smelting",
+
+  "tooltip.vanillafoodsexpanded.eggs_and_bacon": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.eggs_and_bacon.shift_down": "Fried Egg + Porkchop",
+
+  "tooltip.vanillafoodsexpanded.oatmeal_cream_pie": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.oatmeal_cream_pie.shift_down": "Cookie + Cookie + Bucket of Milk",
+
+  "tooltip.vanillafoodsexpanded.beer": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.beer.shift_down": "Wheat + Sugar + Bucket of Water + Glass Bottle",
+
+  "tooltip.vanillafoodsexpanded.hamburger": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.hamburger.shift_down": "Steak + Bread",
+
+  "tooltip.vanillafoodsexpanded.chocolate_glowberries": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.chocolate_glowberries.shift_down": "Glow Berries + Cocoa Beans",
+
+  "tooltip.vanillafoodsexpanded.sushi": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.sushi.shift_down": "Raw Fish + Dried Kelp",
+
+  "tooltip.vanillafoodsexpanded.jelly_donut": "Hold Shift for recipe.",
+  "tooltip.vanillafoodsexpanded.jelly_donut.shift_down": "Sweet Berries + Sugar + Bread"
 }
