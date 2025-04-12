@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 190,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "id": "vanillafoodsexpanded:fried_egg"
+  }
+}
