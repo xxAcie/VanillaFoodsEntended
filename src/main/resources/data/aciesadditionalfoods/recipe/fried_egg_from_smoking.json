@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 90,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "id": "aciesadditionalfoods:fried_egg"
+  }
+}

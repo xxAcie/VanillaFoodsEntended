@@ -1,0 +1,44 @@
+{
+  "item.aciesadditionalfoods.vegetable_soup": "Vegetable Soup",
+  "item.aciesadditionalfoods.chicken_sandwich": "Chicken Sandwich",
+  "item.aciesadditionalfoods.fried_egg": "Fried Egg",
+  "item.aciesadditionalfoods.eggs_and_bacon": "Eggs n' Bacon",
+  "item.aciesadditionalfoods.oatmeal_cream_pie": "Oatmeal Cream Pie",
+  "item.aciesadditionalfoods.beer": "Beer",
+  "item.aciesadditionalfoods.hamburger": "Hamburger",
+  "item.aciesadditionalfoods.chocolate_glowberries": "Choco-Covered Glow berries",
+  "item.aciesadditionalfoods.sushi": "Sushi",
+  "item.aciesadditionalfoods.jelly_donut": "Sweet Berry Donut",
+
+  "creativetab.aciesadditionalfoods.mod_items": "Vanilla Foods Expanded",
+
+  "tooltip.aciesadditionalfoods.vegetable_soup": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.vegetable_soup.shift_down": "Carrot + Potato + Beetroot + Bowl",
+
+  "tooltip.aciesadditionalfoods.chicken_sandwich": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.chicken_sandwich.shift_down": "Cooked Chicken + Bread",
+
+  "tooltip.aciesadditionalfoods.fried_egg": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.fried_egg.shift_down": "Egg + Smelting",
+
+  "tooltip.aciesadditionalfoods.eggs_and_bacon": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.eggs_and_bacon.shift_down": "Fried Egg + Porkchop",
+
+  "tooltip.aciesadditionalfoods.oatmeal_cream_pie": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.oatmeal_cream_pie.shift_down": "Cookie + Cookie + Bucket of Milk",
+
+  "tooltip.aciesadditionalfoods.beer": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.beer.shift_down": "Wheat + Sugar + Bucket of Water + Glass Bottle",
+
+  "tooltip.aciesadditionalfoods.hamburger": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.hamburger.shift_down": "Steak + Bread",
+
+  "tooltip.aciesadditionalfoods.chocolate_glowberries": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.chocolate_glowberries.shift_down": "Glow Berries + Glow Berries + Cocoa Beans + Cocoa Beans",
+
+  "tooltip.aciesadditionalfoods.sushi": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.sushi.shift_down": "Raw Fish + Dried Kelp",
+
+  "tooltip.aciesadditionalfoods.jelly_donut": "Hold Shift for recipe.",
+  "tooltip.aciesadditionalfoods.jelly_donut.shift_down": "Sweet Berries + Sugar + Bread"
+}
