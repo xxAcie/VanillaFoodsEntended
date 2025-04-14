@@ -1,6 +1,6 @@
 package net.acie.vfe.item;
 
-import net.acie.vfe.VanillaFoodsExpanded;
+import net.acie.vfe.AciesAdditionalFoods;
 import net.acie.vfe.item.custom.BeerItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -17,7 +17,7 @@ import java.util.List;
 public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
-            VanillaFoodsExpanded.MOD_ID);
+            AciesAdditionalFoods.MOD_ID);
 
     public static final RegistryObject<Item> VEGETABLE_SOUP = ITEMS.register("vegetable_soup",
             () -> new Item(new Item.Properties().food(ModFoodProperties.VEGETABLE_SOUP)){
@@ -26,11 +26,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.vegetable_soup.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.vegetable_soup.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.vegetable_soup"));
+                                Component.translatable("tooltip.aciesadditionalfoods.vegetable_soup"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -43,11 +43,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.chicken_sandwich.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.chicken_sandwich.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.chicken_sandwich"));
+                                Component.translatable("tooltip.aciesadditionalfoods.chicken_sandwich"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -60,11 +60,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.fried_egg.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.fried_egg.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.fried_egg"));
+                                Component.translatable("tooltip.aciesadditionalfoods.fried_egg"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -77,11 +77,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.eggs_and_bacon.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.eggs_and_bacon.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.eggs_and_bacon"));
+                                Component.translatable("tooltip.aciesadditionalfoods.eggs_and_bacon"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -94,11 +94,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.oatmeal_cream_pie.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.oatmeal_cream_pie.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.oatmeal_cream_pie"));
+                                Component.translatable("tooltip.aciesadditionalfoods.oatmeal_cream_pie"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -111,11 +111,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.beer.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.beer.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.beer"));
+                                Component.translatable("tooltip.aciesadditionalfoods.beer"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -128,11 +128,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.hamburger.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.hamburger.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.hamburger"));
+                                Component.translatable("tooltip.aciesadditionalfoods.hamburger"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -145,11 +145,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.chocolate_glowberries.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.chocolate_glowberries.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.chocolate_glowberries"));
+                                Component.translatable("tooltip.aciesadditionalfoods.chocolate_glowberries"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -162,11 +162,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.sushi.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.sushi.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.sushi"));
+                                Component.translatable("tooltip.aciesadditionalfoods.sushi"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
@@ -179,11 +179,11 @@ public class ModItems {
                                             List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     if(Screen.hasShiftDown()){
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.jelly_donut.shift_down"));
+                                Component.translatable("tooltip.aciesadditionalfoods.jelly_donut.shift_down"));
                     }
                     else{
                         pTooltipComponents.add(
-                                Component.translatable("tooltip.vanillafoodsexpanded.jelly_donut"));
+                                Component.translatable("tooltip.aciesadditionalfoods.jelly_donut"));
                     }
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
